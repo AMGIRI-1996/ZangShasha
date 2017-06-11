@@ -5,10 +5,10 @@ import java.io.IOException;
 public class Main {
 	public static void main(String[] args) throws IOException {
 		// Sample trees (in preorder).
-	//	String tree1Str1 = "TOP (S (NP (PRP I)) (VP (VBP am)) (. hero.))";
-	//String tree1Str2 = "TOP (S (NP (PRP I)) (VP (VBP am) (NP (NN hero))))";
-		String tree1Str1 = "a(b(c  d) q(f g(i)))";
-		String tree1Str2 = "a(b(c  d) q(f g(i)))";
+		String tree1Str1 = "TOP (S (NP (PRP (I)) VP (VBP (am) NP (DT (a) NN (hero)))))";
+		String tree1Str2 = "TOP (S (NP (PRP (I)) VP (VBP (am) RB (not) NP (DT (a) NN (hero)))))";
+	//	String tree1Str1 = "a(b(c  d) q(f g(i)))";
+	//	String tree1Str2 = "a(b(c  d) q(f g(i)))";
 		
 		// Distance: 2 (main example used in the Zhang-Shasha paper)
 
